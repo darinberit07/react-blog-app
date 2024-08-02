@@ -1,0 +1,30 @@
+.main-navbar{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-bottom: 2px solid lightgray;
+}
+
+.main-navbar h1{
+    color: brown;
+}
+
+.main-navbar a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-navbar .nav-links{
+    margin-left: auto;
+}
+
+.main-navbar .nav-links a{
+    margin: 0 10px;
+    padding: 5px;
+}
+
+.main-navbar .nav-links a:hover{
+    color: red;
+}

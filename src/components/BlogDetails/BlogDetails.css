@@ -1,0 +1,41 @@
+article{
+  margin: 10px;
+}
+
+.blog-details{
+    max-width: 1000px;
+    margin: 10px auto;
+    padding: 0px 5px;
+}
+
+.blog-details h2 {
+    font-size: 44px;
+    color: #f1356d;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  .blog-details .blog-body {
+    font-size: 22px;
+    margin: 20px 0;
+  }
+
+  .blog-details .home-button{
+    background: #19db16;
+    color: #fff;
+    border: 0px;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-collapse: collapse;
+  }
+
+  .blog-details .delete-button{
+    background: #f1356d;
+    color: #fff;
+    border: 0px;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 10px;
+  }

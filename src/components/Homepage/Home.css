@@ -1,0 +1,32 @@
+.homepage{
+    margin: 5px auto;
+    max-width: 1000px;
+}
+.homepage h2{
+    font-size: 24px;
+    margin: 10px 0px;
+    padding: 5px 15px;
+}
+
+.homepage label{
+    text-align: left;
+    display: block;
+    font-weight: bold;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.homepage select{
+    width: 20%;
+    padding: 6px 10px;
+    margin: 10px 0 20px 10px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    display: block;
+}
+
+.homepage .no-results{
+    margin: 10px;
+    padding: 10px;
+    font-style: italic;
+}
