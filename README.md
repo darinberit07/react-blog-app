@@ -1,12 +1,3 @@
-#Vite documentation:
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 # Blog Project
 
@@ -17,3 +8,7 @@ This project is a simple blog application built with React as part of my learnin
 - Fetching blog data from a server (Mock API)
 - Displaying all the blogs
 - Filtering blogs by region
+
+## Current Issues
+### 404 Page on Refresh or undefined URLs
+The application is deployed in Github Pages. The website may display a 404 error when a page is refreshed. This is because GitHub Pages does not natively support Single Page Applications (SPA) routing. Currently trying to fix it and also exploring other hosting options :)
