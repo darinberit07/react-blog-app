@@ -8,16 +8,15 @@ import NotFound from './components/NotFoundPage/NotFound';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/react-blog-app'>
       <div className="App">
         <Navbar />
         <div className='content'>
           <Routes>
-            <Route path = '/' element={ < Navigate to="/react-blog-app/home" replace/> }/>
-            <Route path = '/react-blog-app' element={ < Navigate to="/react-blog-app/home" replace/> }/>
-            <Route path='/react-blog-app/home' element={ <Home /> } />
-            <Route path='/react-blog-app/create' element={ <CreateBlog /> } />
-            <Route path='/react-blog-app/blogs/:id' element={ <BlogDetails /> } />
+            <Route path = '/' element={ < Navigate to="/home" replace/> }/>
+            <Route path='/home' element={ <Home /> } />
+            <Route path='/create' element={ <CreateBlog /> } />
+            <Route path='/blogs/:id' element={ <BlogDetails /> } />
             <Route path='*' element={ <NotFound />} />
           </Routes>
         </div>

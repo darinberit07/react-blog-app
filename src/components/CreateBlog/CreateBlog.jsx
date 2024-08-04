@@ -23,7 +23,7 @@ const CreateBlog = () => {
             body: JSON.stringify(blog)
         }).then(() => {
             setIsLoading(false)
-            navigationHistory('/')
+            navigationHistory('/home')
         })
     }
 

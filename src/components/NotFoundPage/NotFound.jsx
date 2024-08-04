@@ -5,7 +5,7 @@ const NotFound = () => {
     return (
         <div className="not-found">
             <h4>Sorry, the requested page cannot be found.</h4>
-            <Link to='/react-blog-app/home'>
+            <Link to='/home'>
                 <button>
                     Return to Home
                 </button>

@@ -19,7 +19,7 @@ const BlogDetails = () => {
     const navHistory = useNavigate()
 
     const handleHomeClick = () => {
-        navHistory('/')
+        navHistory('/home')
     }
 
     const handleDeleteClick = () => {
@@ -33,7 +33,7 @@ const BlogDetails = () => {
                     setErrorInDelete(true)
                 }
                 else{
-                    navHistory('/')
+                    navHistory('/home')
                 }
             }).catch(() => {
                 setErrorInDelete(true);
